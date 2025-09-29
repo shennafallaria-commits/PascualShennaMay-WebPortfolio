@@ -1,4 +1,4 @@
-/* Base Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Container */
+
 .container {
   max-width: 1100px;
   margin: auto;
@@ -24,7 +24,7 @@ a {
   color: #0077cc;
 }
 
-/* Header */
+
 .main-header {
   background: #111;
   color: white;
@@ -65,7 +65,7 @@ a {
   color: #f3129d;
 }
 
-/* Intro */
+
 .intro-section {
   padding: 120px 1rem 80px;
   background: linear-gradient(135deg, #fffcf4, #eaf4ff);
@@ -110,7 +110,7 @@ a {
   background: #d35400;
 }
 
-/* About */
+
 .about-section {
   padding: 60px 1rem;
   background: #fff;
@@ -123,7 +123,7 @@ a {
   font-size: 1.1rem;
 }
 
-/* Portfolio */
+
 .portfolio-section {
   padding: 60px 1rem;
   background: #f9f9f9;
@@ -175,7 +175,7 @@ a {
   background: #005fa3;
 }
 
-/* Contact */
+
 .contact-section {
   background: #fff;
   padding: 60px 1rem;
@@ -186,7 +186,7 @@ a {
   color: #000dff;
 }
 
-/* Footer */
+
 .footer {
   text-align: center;
   padding: 20px;
@@ -194,9 +194,7 @@ a {
   color: white;
 }
 
-/* ===============================
-   RESPONSIVE DESIGN (Media Queries)
-   =============================== */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -245,3 +243,4 @@ a {
     align-items: center;
   }
 }
+
